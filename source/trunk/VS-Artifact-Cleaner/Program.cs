@@ -162,7 +162,7 @@
                 DeleteFileForce(file);
             }
             Console.ForegroundColor = _deleteColor;
-            Console.Write(string.Format("Deleting Directory: "));
+            Console.Write(string.Format("Deleting: "));
             Console.ForegroundColor = _directoryColor;
             Console.WriteLine(baseDirectoryPath.FullName);
             baseDirectoryPath.Delete();
@@ -182,7 +182,7 @@
                 file.IsReadOnly = false;
             }
             Console.ForegroundColor = _deleteColor;
-            Console.Write(string.Format("Deleting File: "));
+            Console.Write(string.Format("Deleting: "));
             Console.ForegroundColor = _fileColor;
             Console.WriteLine(file.FullName);
             file.Delete();
