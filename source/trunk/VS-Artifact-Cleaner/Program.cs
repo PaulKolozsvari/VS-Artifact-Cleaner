@@ -131,6 +131,7 @@
                 "obj",
                 "Debug",
                 "Release",
+                ".vs"
             };
         }
 
@@ -138,7 +139,9 @@
         {
             return new List<string>()
             {
-                ".user"
+                ".user",
+                ".suo",
+                ".userprefs",
             };
         }
 
